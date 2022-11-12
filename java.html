@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+</head>
+
+<body>
+    <div id="countdown">
+
+    </div>
+    <div class="container">
+
+
+        <h5 id="heading21" class="question"></h5>
+        <div class="div">
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="ans1" class="answers">
+                    <label for="ans1" id="option1"></label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans2" class="answers">
+                    <label for="ans2" id="option2"></label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans3" class="answers">
+                    <label for="ans3" id="option3"></label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans4" class="answers">
+                    <label for="ans4" id="option4"></label>
+                </li>
+            </ul>
+            <button onclick="submit()" id="next" type="button" class="btn btn-primary">Next</button>
+        </div>
+    </div>
+
+    <div id="showScore" class="scoreArea">
+
+    </div>
+</body>
+<style>
+    body {
+        background: linear-gradient(to right, #0ee1d3, #e8e9eb, #7F7FD5);
+
+
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .question {
+        padding: 60px;
+        margin-left: -15px;
+        margin-bottom: -50px;
+
+    }
+
+    .container {
+        background-color: rgb(147, 189, 192);
+        border: 1px solid black;
+        align-items: center;
+        width: 50%;
+        height: 430px;
+        font-size: 30px;
+        margin-left: 420px;
+        margin-bottom: 40px;
+
+    }
+
+    button {
+        margin-left: 590px;
+        width: 150px;
+        padding: 10px;
+        background-color: rgb(0, 157, 255);
+        font-size: 15px;
+        cursor: pointer;
+        color: white;
+    }
+
+    button:active {
+        background-color: #0a58ca;
+    }
+
+    #countdown {
+        margin-left: 1090px;
+        font-size: 36px;
+        margin-top: 100px;
+    }
+
+    #showScore {
+        width: 50%;
+        height: 230px;
+        margin-left: 420px;
+        margin-top: 140px;
+        font-size: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    @media only screen and (max-width: 500px) {
+        body {
+            overflow-x: hidden;
+        }
+
+        .container {
+
+            width: 400px;
+            font-size: 20px;
+            margin-left: 2px;
+            height: 380px;
+        }
+
+        button {
+            width: 20%;
+            margin-left: 290px;
+        }
+
+        #course {
+            width: 250px;
+
+            margin-left: 20px;
+            margin-top: 120px;
+            padding: 50px;
+        }
+
+        #countdown {
+            margin-left: 290px;
+            font-size: 30px;
+        }
+    }
+
+    #showScore {
+
+        width: 400px;
+        font-size: 20px;
+        margin-left: 2px;
+        height: 180px;
+    }
+</style>
+
+
+<script src="java.js"></script>
+</body>
+
+</html>

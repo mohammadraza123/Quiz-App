@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: tomato;
+}
+
+input {
+    display: block;
+    margin: 20px;
+    width: 350px;
+    padding: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: 20px;
+}
+
+.sign {
+    margin: auto;
+    padding: 50px;
+    background-color: white;
+    width: 400px;
+    margin-left: 520px;
+    margin-top: 130px;
+    height: 350px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.sign>h1 {
+    padding: 10px;
+    margin-bottom: 60px;
+    border-bottom: 2px solid black;
+}
+
+button {
+    margin-top: 20px;
+    width: 290px;
+    padding: 15px;
+    background-color: #0a58ca;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
